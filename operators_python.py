@@ -27,9 +27,10 @@ print(x>y)
 print(x<y)
 print(x==y)
 print(x!=y)
+ 
+ #Logical operators 
 
-# Logical Operators
-
+ 
 p=True
 q=False
 print(p and q)
