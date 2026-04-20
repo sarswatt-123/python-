@@ -1,14 +1,5 @@
-a=23
+a= int (input("Enter the number a :"))
+b=int (input("Enter the number b :"))
+print("a is greater than b ",a>b)
 
-b1=56
-
-teena_3= 4
-
-aaaa= 56
-
-_tryi = 45
-
-   # @samer = 45  invalid variable  due to @ 
-
-
-
+print("hello world")
