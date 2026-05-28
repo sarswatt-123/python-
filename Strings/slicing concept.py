@@ -11,3 +11,6 @@ print(len(name))
 a= "RIYA SARASWAT"
 print(a[0:8])  
 print(a[0:8:2])
+
+# start ko by default 0 hi mana jata hai 
+# pr stop ko bydefault -1 hi mana  jata hai 

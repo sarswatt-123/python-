@@ -4,10 +4,11 @@ print(name[1:4])
 print(len(name))
 
 print(name[:8])  # shuru mei kuch na ho to 0 maan lo 
-print(name[0:])  # last mei kuch n ho to uski len maan lo 
+print(name[0:])  # last mei kuch n ho to uski len/-1 maan lo 
 
 print(name[0:8:2])  # last wale ka mtlb hota hai jump kitna lena hai '''
 
+# hamesha pehle negative slicing ko positive mei convert kro fir usko use kro 
 
 name = "dheeraj"
 print(name[0:5:2])
