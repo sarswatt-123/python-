@@ -7,7 +7,9 @@ num2 = int(input("Enter the number 2 "))
 """(num1,num2) = (num2,num1)
 
 print("number 1 ",num1)
-print("number",num2)"""
+print("number",num2)
+
+"""
 
 #without using temporary variable 
 t=num1
