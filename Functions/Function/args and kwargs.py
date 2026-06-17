@@ -9,10 +9,6 @@ def multiply(*args):
 
 print(multiply(4,6,7,8,6,7,4,2,3))
 
-
-
-
-
 # concept of **kwargs 
 
 def display(**kwargs):
