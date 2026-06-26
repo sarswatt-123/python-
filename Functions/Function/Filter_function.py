@@ -5,10 +5,12 @@ print(a)
 
 
 
+
 # filter those fruits form the list whose name starts with a 
 
 b=list(filter(lambda x :x.startswith("a"),['apple',"mango",'banana','annanaas']))
 print(b)
+
 
 
 
