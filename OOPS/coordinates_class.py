@@ -42,7 +42,7 @@ p1 = Point(1,10)
 print(l1)
 print(p1)
 print(l1.point_on_line(p1))
-"""
+
 L1=Line(2,3,4)
 print(L1)   
 
@@ -53,4 +53,3 @@ print("Coordinates of p2",p2)
 print(p1.euclidian_distance(p2))
 print(p1.distance_from_origin())
 
-"""
