@@ -37,6 +37,18 @@ class Line():
         else:
             return "does not lie on the line"
 
+    def Shortest_distance(line,point):
+        return abs(line.A*point.x_cod + line.B*point.y_cod + line.C)/(line.A**2 + line.B**2)**0.5
+
+
+l1 = Line(1,1,-2)
+p1 = Point(1,10)
+print(l1)
+print(p1)
+
+l1.Shortest_distance(p1)
+"""
+
 l1 = Line(1,1,-2)
 p1 = Point(1,10)
 print(l1)
@@ -51,5 +63,5 @@ p2=Point(1,1)
 print(" coordinates of p1 : ",p1)
 print("Coordinates of p2",p2)
 print(p1.euclidian_distance(p2))
-print(p1.distance_from_origin())
+print(p1.distance_from_origin()) """
 
