@@ -41,6 +41,8 @@ class Line():
         return abs(line.A*point.x_cod + line.B*point.y_cod + line.C)/(line.A**2 + line.B**2)**0.5
 
 
+# Object calling through class 
+
 l1 = Line(1,1,-2)
 p1 = Point(1,10)
 print(l1)
